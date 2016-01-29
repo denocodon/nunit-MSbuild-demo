@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Run">
+<UsingTask AssemblyFile="$(MSBuildStartupDirectory)\Lib\MsBuildCommunityTasks\MSBuild.Community.Tasks.dll" TaskName="NUnit"/>
+	<PropertyGroup> 
+    <!-- After Compile: Result will be saved in OutDir -->
+		<OutDir>$(MSBuildStartupDirectory)\OutDir\</OutDir>
+    
+    <!-- Configuration -->
+    <Configuration>Release</Configuration>
+    
+    <!-- Solutionproperties-->
+		<SolutionProperties>
+      OutDir=$(OutDir);
+      Platform=Any CPU;
+      Configuration=$(Configuration)
+    </SolutionProperties>
+	</PropertyGroup>
+	<ItemGroup>
+		<Solution Include="NUnit.MsBuildDemo.sln">
+			<Properties>
+				$(SolutionProperties)
+			</Properties>
+		</Solution>
+	</ItemGroup>
+	<Target Name="Run">
+    <Message Text="Run called." />
+    
+    <CallTarget Targets="BuildSolution" />
+
+
+    <CallTarget Targets="RunTests" />
+
+  </Target>
+
+  <PropertyGroup>
+	<NUnitResultsFile>$(OutDir)\nunit-result.xml</NUnitResultsFile>
+  </PropertyGroup>
+
+
+
+  <Target Name="BuildSolution">
+    <Message Text="BuildSolution called." />
+    <MSBuild Projects="@(Solution)"/>
+  </Target>
+
+
+  <Target Name="RunTests">
+    <CreateItem Include="$(OutDir)*.Tests.dll">
+      <Output TaskParameter="Include" ItemName="TestAssembly" />
+    </CreateItem>
+
+     <Message Text="+++++++++++++++++"/>
+     <Message Text="@(TestAssembly)"/>
+
+
+    <NUnit 	Assemblies="@(TestAssembly)" 
+		ToolPath="C:\Program Files (x86)\NUnit 2.6.2\bin"
+		OutputXmlFile="$(NUnitResultsFile)"
+	/>
+  </Target>
+
+
+</Project>

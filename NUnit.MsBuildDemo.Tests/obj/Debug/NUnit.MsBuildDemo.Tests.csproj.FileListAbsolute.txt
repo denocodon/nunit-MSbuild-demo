@@ -1,0 +1,12 @@
+C:\Users\cd-cm\Downloads\NUnit.MsBuildDemo\NUnit.MsBuildDemo\NUnit.MsBuildDemo.Tests\bin\Debug\NUnit.MsBuildDemo.Tests.dll
+C:\Users\cd-cm\Downloads\NUnit.MsBuildDemo\NUnit.MsBuildDemo\NUnit.MsBuildDemo.Tests\bin\Debug\NUnit.MsBuildDemo.Tests.pdb
+C:\Users\cd-cm\Downloads\NUnit.MsBuildDemo\NUnit.MsBuildDemo\NUnit.MsBuildDemo.Tests\bin\Debug\Moq.dll
+C:\Users\cd-cm\Downloads\NUnit.MsBuildDemo\NUnit.MsBuildDemo\NUnit.MsBuildDemo.Tests\bin\Debug\nunit.framework.dll
+C:\Users\cd-cm\Downloads\NUnit.MsBuildDemo\NUnit.MsBuildDemo\NUnit.MsBuildDemo.Tests\bin\Debug\NUnit.MsBuildDemo.dll
+C:\Users\cd-cm\Downloads\NUnit.MsBuildDemo\NUnit.MsBuildDemo\NUnit.MsBuildDemo.Tests\bin\Debug\NUnit.MsBuildDemo.pdb
+C:\Users\cd-cm\Downloads\NUnit.MsBuildDemo\NUnit.MsBuildDemo\NUnit.MsBuildDemo.Tests\bin\Debug\Moq.pdb
+C:\Users\cd-cm\Downloads\NUnit.MsBuildDemo\NUnit.MsBuildDemo\NUnit.MsBuildDemo.Tests\bin\Debug\Moq.xml
+C:\Users\cd-cm\Downloads\NUnit.MsBuildDemo\NUnit.MsBuildDemo\NUnit.MsBuildDemo.Tests\bin\Debug\nunit.framework.xml
+C:\Users\cd-cm\Downloads\NUnit.MsBuildDemo\NUnit.MsBuildDemo\NUnit.MsBuildDemo.Tests\obj\Debug\NUnit.MsBuildDemo.Tests.csprojResolveAssemblyReference.cache
+C:\Users\cd-cm\Downloads\NUnit.MsBuildDemo\NUnit.MsBuildDemo\NUnit.MsBuildDemo.Tests\obj\Debug\NUnit.MsBuildDemo.Tests.dll
+C:\Users\cd-cm\Downloads\NUnit.MsBuildDemo\NUnit.MsBuildDemo\NUnit.MsBuildDemo.Tests\obj\Debug\NUnit.MsBuildDemo.Tests.pdb
