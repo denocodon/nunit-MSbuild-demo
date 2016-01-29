@@ -54,7 +54,7 @@
 
 
     <NUnit 	Assemblies="@(TestAssembly)" 
-		ToolPath="C:\Program Files (x86)\NUnit 2.6.2\bin"
+		ToolPath="C:\Program Files (x86)\NUnit 2.6.4\bin"
 		OutputXmlFile="$(NUnitResultsFile)"
 	/>
   </Target>
