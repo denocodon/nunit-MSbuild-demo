@@ -1,5 +1,4 @@
 C:\Users\cd-cm\Downloads\NUnit.MsBuildDemo\NUnit.MsBuildDemo\NUnit.MsBuildDemo\bin\Debug\NUnit.MsBuildDemo.dll
 C:\Users\cd-cm\Downloads\NUnit.MsBuildDemo\NUnit.MsBuildDemo\NUnit.MsBuildDemo\bin\Debug\NUnit.MsBuildDemo.pdb
-C:\Users\cd-cm\Downloads\NUnit.MsBuildDemo\NUnit.MsBuildDemo\NUnit.MsBuildDemo\obj\Debug\NUnit.MsBuildDemo.csprojResolveAssemblyReference.cache
 C:\Users\cd-cm\Downloads\NUnit.MsBuildDemo\NUnit.MsBuildDemo\NUnit.MsBuildDemo\obj\Debug\NUnit.MsBuildDemo.dll
 C:\Users\cd-cm\Downloads\NUnit.MsBuildDemo\NUnit.MsBuildDemo\NUnit.MsBuildDemo\obj\Debug\NUnit.MsBuildDemo.pdb
